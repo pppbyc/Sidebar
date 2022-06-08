@@ -10,6 +10,10 @@ function Sidebar() {
   return (
     <>
         <div className="sidebar">
+          <Link to="/">
+            <ul className='back-home'>REALM HOME</ul>
+          </Link>
+          
             <ul className="list">
             {SidebarData.map((item, index) => {
               return (

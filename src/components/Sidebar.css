@@ -13,6 +13,11 @@
     padding: 0px 0px 0px 0px;
 }
 
+.back-home {
+    margin: 30px;
+    padding: 0px 0px 0px 0px;
+}
+
 .nav-text {
     display: flex;
     justify-content: start;
