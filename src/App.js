@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-dom';
-import About from './pages/About';
-import Project from './pages/Project';
-import Team from './pages/Team';
+import Vision from './pages/Vision';
+import Scope from './pages/Scope';
+import Feature from './pages/Feature';
 
 const App = () => {
   //console.log(window.location)
@@ -15,9 +15,9 @@ const App = () => {
       <Router>
         <Sidebar />
           <Switch>
-            <Route path='/about' component={withRouter(About)} />
-            <Route path='/project' component={withRouter(Project)} />
-            <Route path='/team' component={withRouter(Team)} />
+            <Route path='/vision' component={withRouter(Vision)} />
+            <Route path='/scope' component={withRouter(Scope)} />
+            <Route path='/feature' component={withRouter(Feature)} />
             <Route path='/' exact component={withRouter(Home)} />
           </Switch>
       </Router>
@@ -28,8 +28,8 @@ const App = () => {
 }
 
 const Home = () => (
-  <div>
-    <h1>REALM Home Page</h1>
+  <div className="home">
+    <h2>REALM Home Page</h2>
   </div>
 )
 

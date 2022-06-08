@@ -2,18 +2,21 @@
     border: 2px solid black;
     border-radius: 5px;
     height: 500px;
-    width: 100px;
-    margin-left: 2rem;
+    width: 180px;
+    margin-left: 1rem;
     justify-content: center;
     position:fixed
 }
 
+.list {
+    margin: 10px;
+    padding: 0px 0px 0px 0px;
+}
 
 .nav-text {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 1px 0px 3px 5px;
+    padding-left: 0%;
     list-style: none;
-    height: 60px;
 }
